@@ -1,7 +1,7 @@
-# grunt-assets-versioning [![Build Status](https://travis-ci.org/theasta/grunt-assets-versioning.svg?branch=master)](https://travis-ci.org/theasta/grunt-assets-versioning) [![NPM version](https://badge.fury.io/js/grunt-assets-versioning.svg)](http://badge.fury.io/js/grunt-assets-versioning)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/theasta/grunt-assets-versioning?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+# grunt-assets-versioning 
 > Versioning static assets with Grunt
+
+A fork with security updates.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
