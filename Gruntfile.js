@@ -26,7 +26,6 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js',
         'tasks/**/*.js',
-        '<%= nodeunit.tests %>'
       ],
       options: {
         jshintrc: '.jshintrc'
@@ -347,9 +346,6 @@ module.exports = function(grunt) {
     },
 
     // Unit tests.
-    nodeunit: {
-      tests: ['test/*_test.js']
-    },
 
     watch: {
       files: ['<%= jshint.all %>'],
@@ -366,7 +362,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-jsdoc');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
   var mock = require('mock-fs');
 
@@ -450,8 +445,7 @@ module.exports = function(grunt) {
     'assets_versioning:task_files_array_format',
     'assets_versioning:task_files_expand_format',
     'assets_versioning:multiple_tasks',
-    'assets_versioning:files_default_behaviour',
-    'nodeunit'
+    'assets_versioning:files_default_behaviour'
   ]);
 
   grunt.registerTask('fail', [
